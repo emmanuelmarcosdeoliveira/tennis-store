@@ -302,7 +302,9 @@ header {
       }
     .produtos-itens h5 {
       display: block;
-      margin: 10px 42px;
+      margin: 0 auto;
+      width: 290px;
+      
     }
   }
    
