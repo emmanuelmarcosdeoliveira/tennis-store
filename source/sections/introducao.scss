@@ -1,5 +1,6 @@
 @use '../config/reset.scss';
 @use '../config/variaveis.scss';
+@use '../config/cores.scss';
 
 .introducao {
   display: flex;
@@ -21,8 +22,8 @@
   h3 {
     font-size: 1.3rem;
     font-style: italic;
-    color: rgb(31, 96, 216);
-    border-bottom: 2px solid rgb(31, 96, 216);
+    color: cores.$corPrimaria;
+    border-bottom: 2px solid cores.$corPrimaria;
     padding-bottom: 20px;
   }
   p {

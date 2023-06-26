@@ -1,5 +1,6 @@
 @use '../config/reset.scss';
 @use '../config/variaveis.scss';
+@use '../config/cores.scss';
 
 header {
     margin: 0 auto;
@@ -9,7 +10,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(31, 96, 216);
+    background-color: cores.$corPrimaria;
     max-width: vw;
       #logo {
       font-size: 1.5rem;

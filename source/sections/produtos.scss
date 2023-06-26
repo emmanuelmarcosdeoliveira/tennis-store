@@ -1,5 +1,7 @@
 @use '../config/reset.scss';
 @use '../config/variaveis.scss';
+@use '../config/cores.scss';
+
 .container-produtos {
   max-width: 1200px;
   margin: 0 auto;
@@ -7,14 +9,15 @@
   h3{
     font-size: 1.3rem;
     font-style: italic;
-    color: rgb(31, 96, 216);
-    border-bottom: 2px solid rgb(31, 96, 216);
+    color: cores.$corPrimaria;
+    border-bottom: 2px solid cores.$corPrimaria;
   }
 }
 .produtos-lista {
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 4fr);
+  gap: 10px;
   li {
     list-style: none;
   }
@@ -32,12 +35,13 @@
     width: 270px;
     padding: 10px 20px;
     border: none;
-    background-color: rgb(31, 96, 216);
-    color: #fff;
+    background-color: cores.$corPrimaria;
+    color: cores.$cor1;
     font-size: 1rem;
     border-radius: 4px;
     margin-bottom: 40px;
     cursor: pointer;
+   
   }
 }
 .promoção {
@@ -59,6 +63,6 @@
   h5 {
     align-items: center;
     font-size: 1.1rem;
-    color: rgb(31, 96, 216);
+    color: cores.$cor1;
   }
 } 
