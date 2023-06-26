@@ -1,0 +1,26 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+body, h4, h5 {
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}

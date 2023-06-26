@@ -1,0 +1,35 @@
+@use '../config/reset.scss';
+@use '../config/variaveis.scss';
+
+header {
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(31, 96, 216);
+    max-width: vw;
+      #logo {
+      font-size: 1.5rem;
+      font-style: italic;
+      font-weight: bold;
+    } 
+     #menu {
+      display: flex;
+      list-style: none;
+      justify-content: space-between;
+       gap: 0.5rem;
+         #menu a {
+        padding: 0.5rem;
+        }
+      }
+ }
+#nav a {
+  margin: 0px 10px;
+}
+ #btn-mobile {
+  display: none;
+}
+

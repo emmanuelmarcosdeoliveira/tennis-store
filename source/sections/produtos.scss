@@ -1,0 +1,64 @@
+@use '../config/reset.scss';
+@use '../config/variaveis.scss';
+.container-produtos {
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  h3{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: rgb(31, 96, 216);
+    border-bottom: 2px solid rgb(31, 96, 216);
+  }
+}
+.produtos-lista {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  li {
+    list-style: none;
+  }
+  img { 
+    border-radius: 4px;
+    width: 270px;
+   height: 250px;
+   }
+   p {
+    width: 270px;
+  text-align: center; 
+  }
+  button {
+    margin-top: 10px;
+    width: 270px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(31, 96, 216);
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+}
+.promoção {
+  display: flex;
+  align-items: center;
+  h5 {
+    margin-left: 10px;
+  }
+}
+.produtos-item {
+  h4 {
+    width: 270px;
+    text-align: center;
+    font-size: 1.2rem;
+     }
+    p {
+    max-width: 270px;
+  }
+  h5 {
+    align-items: center;
+    font-size: 1.1rem;
+    color: rgb(31, 96, 216);
+  }
+} 
